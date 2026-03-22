@@ -1,0 +1,35 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "\"I hope, now I can use git\"",
+  "homepage": "https://github.com/KsushaGit/aqa-advanced#readme",
+  "bugs": {
+    "url": "https://github.com/KsushaGit/aqa-advanced/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KsushaGit/aqa-advanced.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.57.1"
+  },
+  "keywords": []
+}

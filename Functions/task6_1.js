@@ -38,6 +38,9 @@ let square =  width*height;
     console.log (`${square } is via Arrow function` );
     return square;
 
+// simple arrow function: x => x * 2
+// const smth = (a, b) => a * b;
+
 }
 squareRectangle2(18,7)
 // just shorter way of arrow function

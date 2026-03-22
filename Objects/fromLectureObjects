@@ -1,0 +1,19 @@
+const fruits= {
+    size: "big",
+    colour: "red",
+    country: "jamaika"
+}
+console.log (fruits)
+const {size, country, name="banana"} = fruits // desctructurisation
+console.log(fruits)
+
+// Create an Object
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50
+};
+
+// Destructuring
+let {firstName, lastName} = person;
+console.log(person)
